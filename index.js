@@ -243,7 +243,7 @@ function getActiveDay(date) {
   eventDate.innerHTML = date + " " + months[month] + " " + year;
 }
 function getActiveMonth() {
-  eventDay.innerHTML = "Months Celebrations";
+  eventDay.innerHTML = "Month's Celebrations";
   eventDate.innerHTML = months[month] + " " + year;
 }
 
