@@ -243,7 +243,7 @@ function getActiveDay(date) {
   eventDate.innerHTML = date + " " + months[month] + " " + year;
 }
 function getActiveMonth() {
-  eventDay.innerHTML = "Months Event";
+  eventDay.innerHTML = "Months Celebrations";
   eventDate.innerHTML = months[month] + " " + year;
 }
 
@@ -271,7 +271,7 @@ function updateEvents(date) {
   });
   if (events === "") {
     events = `<div class="no-event">
-            <h3>No Celebrations available</h3>
+            <h3>No Celebrants</h3>
         </div>`;
   }
   eventsContainer.innerHTML = events;
